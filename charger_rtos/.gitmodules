@@ -1,0 +1,6 @@
+[submodule "ChibiOS"]
+	path = ChibiOS
+	url = https://github.com/smilykoch/ChibiOS.git
+[submodule "drivers/uGFX"]
+	path = drivers/uGFX
+	url = https://git.ugfx.io/uGFX/uGFX.git

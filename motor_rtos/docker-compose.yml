@@ -1,0 +1,27 @@
+# ROS Tutorial Talker
+talker:
+  # build: ros-tutorials/.
+  image: roberto_robot
+  container_name: talker
+  hostname: talker
+  net: rosdocker
+  environment:
+      - "ROS_HOSTNAME=talker"
+      - "ROS_MASTER_URI=http://rosmaster:11311"
+  devices:
+      - "/dev/ttyACM0:/dev/ttyACM0"
+  # command: bash
+  command: rosrun rosserial_python serial_node.py _port:=/dev/ttyACM0 _baud:=115200
+
+
+# ROS MASTER (ROSCORE)
+rosmaster:
+  image: roberto_robot
+  container_name: rosmaster
+  hostname: rosmaster
+  net: rosdocker
+  devices:
+      - "/dev/ttyACM0:/dev/ttyACM0"
+  ports:
+      - "11311:11311"
+  command: roscore

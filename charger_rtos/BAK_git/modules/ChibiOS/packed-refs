@@ -1,0 +1,18 @@
+# pack-refs with: peeled fully-peeled 
+f58a65901fb40bea6d9a377af4eef2614e6d0d67 refs/remotes/origin/chibistudio_trunk
+51e985ee0ddf42d10215955f8c022b031370037d refs/remotes/origin/kernel_3_alt_vt_dev
+14e7e9d22621d1438de919c69117d921e45eee14 refs/remotes/origin/kernel_3_dev
+15f4e5c3f36595e9fb03a9143fe6d52183700220 refs/remotes/origin/master
+a4b2c113e74e026dfc7cc02060b32ab3f047ae8d refs/remotes/origin/revert-10-master
+e61ff3aa1c1fd0f1057e08ae4551abbc01595550 refs/remotes/origin/stable_1.0.x
+3957b74f871e2ac11b8447aa067b1cece4861970 refs/remotes/origin/stable_1.2.x
+06c45ae2ef94ff95bbdab317bc53aebe7c51aacc refs/remotes/origin/stable_1.4.x
+2e83f89966e74908523d6ea464cfc5cf53275493 refs/remotes/origin/stable_16.1.x
+30220450717da4446cc51f9a7fa4c98031e5b6b7 refs/remotes/origin/stable_17.6.x
+e324eb668a8399c5e5342d3111d175f42f14b50b refs/remotes/origin/stable_2.0.x
+c807840cdcec4e09b3fd0d2268370d9a317f0b90 refs/remotes/origin/stable_2.2.x
+062803674562e117754c051992535d69a3762573 refs/remotes/origin/stable_2.4.x
+0b0e793cc832373af431029878bc4b6f8c3e5fa5 refs/remotes/origin/stable_2.6.x
+7596c99a218929e8c93341e2afa353134b64e233 refs/remotes/origin/stable_3.0.x
+15f4e5c3f36595e9fb03a9143fe6d52183700220 refs/remotes/origin/trunk
+d19be72d72b955806f421ef02d8511ffbcb0f3ba refs/remotes/origin/utils_dev

@@ -1,0 +1,8 @@
+{
+  "execPath": "arm-none-eabi-g++",
+  "gccDefaultCFlags": "-fsyntax-only -Os -g0 -Wall -fdiagnostics-color=auto -Wno-pointer-sign -std=gnu11",
+  "gccDefaultCppFlags": "-fsyntax-only -Os -g0 -Wall -fdiagnostics-color=auto -std=c++11  -Wno-pmf-conversions",
+  "gccErrorLimit": 15,
+  "gccIncludePaths": ".,./include,./Inc,./Inc/periph,./Inc/f3, Inc",
+  "gccSuppressWarnings": true
+}
